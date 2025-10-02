@@ -75,6 +75,8 @@ export const purchasePlan = async (req, res) => {
 
     const {origin} = req.headers;
 
+    const baseOrigin = origin.replace(/\/$/, "");
+
     const session = await stripe.checkout.sessions.create({
       line_items: [
         {
@@ -89,8 +91,8 @@ export const purchasePlan = async (req, res) => {
         },
       ],
       mode: "payment",
-      success_url: `${origin}/loading`,
-      cancel_url: `${origin}`,
+      success_url: `${baseOrigin}/loading`,
+      cancel_url: `${baseOrigin}`,
       metadata: {transactionId: transaction._id.toString(), appId: "quickgpt"},
       expires_at: Math.floor(Date.now() / 1000) + 30 * 60, //Expire in 30 minutes
     });
