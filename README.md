@@ -1,15 +1,16 @@
 # ![alt text](client/public/logo_full_dark.svg) QuickGPT - AI Chat & Image Generation Platform
 
 <p align="center">
-  <img src="https://cdn.openai.com/chatgpt/ChatGPT_Logo.svg" 
+  <img src="client/public/Screenshot_2025-10-07_164225.png" 
        alt="QuickGPT Project Preview" 
        width="800" 
        style="border-radius: 12px; box-shadow: 0px 4px 20px rgba(0,0,0,0.25);" />
 </p>
 
-A full-stack **AI-powered web application** that lets users chat with an intelligent assistant, generate code & images, explore a community of AI art, and buy credits using **Stripe** for premium features.
-
-> ⚠️ This is an academic & portfolio project and **does not represent OpenAI’s official ChatGPT**.
+QuickGPT is a full-stack **LLM-powered AI assistant** enabling real-time text, code,
+and image generation using OpenAI and Gemini APIs. It features login/signup,
+**credit-based payments via Stripe**, community image sharing, theme toggle, and
+responsive design for both mobile and desktop.
 
 ---
 
@@ -18,7 +19,7 @@ A full-stack **AI-powered web application** that lets users chat with an intelli
 - 🔐 User Authentication (JWT-based login/signup)  
 - 💬 Real-time AI Chat using OpenAI API  
 - 💻 Code Generation – write and copy instantly  
-- 🖼️ Image Generation using OpenAI API  
+- 🖼️ Image Generation using Imagekit API  
 - 🌆 Community Page to share & view AI-generated images  
 - 💳 Stripe Payment Integration to buy credits  
 - 🌓 Light & Dark Mode toggle  
