@@ -1,4 +1,4 @@
-# ![alt text]() QuickGPT - AI Chat & Image Generation Platform
+# ![alt text](client/public/logo_full_dark.svg) QuickGPT - AI Chat & Image Generation Platform
 
 <p align="center">
   <img src="https://cdn.openai.com/chatgpt/ChatGPT_Logo.svg" 
