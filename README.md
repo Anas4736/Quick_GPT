@@ -10,7 +10,7 @@
 QuickGPT is a full-stack **LLM-powered AI assistant** enabling real-time text, code,
 and image generation using OpenAI and Gemini APIs. It features login/signup,
 **credit-based payments via Stripe**, community image sharing, theme toggle, and
-responsive design for both mobile and desktop.       
+responsive design for both mobile and desktop.        
 
 ---
 
