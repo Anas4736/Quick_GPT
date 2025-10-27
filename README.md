@@ -24,7 +24,7 @@ responsive design for both mobile and desktop.
 - 💳 Stripe Payment Integration to buy credits  
 - 🌓 Light & Dark Mode toggle  
 - 📱 Fully Responsive UI (Mobile + Desktop)  
-- 🚪 Logout & Session Management  
+- 🚪 Logout & Session Management   
 
 ---
 
